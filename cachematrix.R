@@ -1,13 +1,13 @@
 
-makeCacheMatrix
-<- functionf( m = matrix()fg ) {  set <- function<sd- matrix
+@makeCacheMatrix
+<- functionf( m = matrix()fg ) {  set <- rfunction<sd- matrix
                              
-                              <- function}]
-getInverse-
-function(dfg) { setinverse
+                              <- rfunction}]
+@getInverse-
+tfunction(dfg) { setinverse
                setInverse =    setInverse,
-         getInverse =    hgetInverse  
-               getInverse()- matrix(c(1,2,3,4sv
+         hgetInverse =    hgetInverse  
+               hgetInverse()- tmatrix(c(1,2,3,4,5)sv
                                       makeCacheMatrix(B)
                                       if( !is.nullsage("getting cached )
 - x$ge
