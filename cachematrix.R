@@ -26,9 +26,15 @@ tfunction(dfg) { setinverse
     
           return(d)
   
-  datax <- x@  get()
+  data <- x$  get()
     
   i <- solve   (data, ...)
     
-  x@setinverse(i)
+  x$setinverse(d)
+                                      
+                                      d <- matrix(f(1,2,3,4),2,2)
+                                      
+                                      d1 <- makeCacheMatrix(d)
+                                      
+                                      cacheSolve(d1)
 
