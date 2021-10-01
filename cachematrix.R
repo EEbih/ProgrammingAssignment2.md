@@ -1,15 +1,34 @@
 
 @makeCacheMatrix
-<- functionf( m = matrix()fg ) {  set <- rfunction<sd- matrix
+makeCacheMatrix  <-    functionx = matrix()) {
+  
+ set <-      functiony (y) {
                              
                               <- rfunction}]
+  
+  setinverse  <-    functioninverse i  <<- inverse
+ 
+  list( set    = set,
+       
+       get =  get,
+       
+    
 @getInverse-
 tfunction(dfg) { setinverse
                setInverse =    setInverse,
          hgetInverse =    hgetInverse  
                hgetInverse()- tmatrix(c(1,2,3,4,5)sv
-                                      makeCacheMatrix(B)
-                                      if( !is.nullsage("getting cached )
-- x$ge
-ssetInverse(b)
+                                    
+                                      xcacheSolve <- function  (x, ...) 
+  d (! is.null (d)) 
+                                      
+          message("cached data x")
+    
+          return(d)
+  
+  datax <- x@  get()
+    
+  i <- solve   (data, ...)
+    
+  x@setinverse(i)
 
