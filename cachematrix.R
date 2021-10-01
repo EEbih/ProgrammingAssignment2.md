@@ -1,6 +1,6 @@
 
 @makeCacheMatrix
-makeCacheMatrix  <-    functionx = matrix()) {
+makeCacheMatrix  <-    functionx = matrix(x)) {
   
  set <-      functiony (y) {
                              
@@ -8,7 +8,7 @@ makeCacheMatrix  <-    functionx = matrix()) {
   
   setinverse  <-    functioninverse i  <<- inverse
  
-  list( set    = set,
+  list(x) set    = set,
        
        get =  get,
        
@@ -19,20 +19,22 @@ tfunction(dfg) { setinverse
          hgetInverse =    hgetInverse  
                hgetInverse()- tmatrix(c(1,2,3,4,5)sv
                                     
-                                      xcacheSolve <- function  (x, ...) 
+                                      xcacheSolve <-
+                                      function  (x, ...) 
   d (! is.null (d)) 
                                       
-          message("cached data x")
+          message
+                                      ("cached data x")
     
           return(d)
   
-  data <- x$  get()
+  data <- x  get()
     
   i <- solve   (data, ...)
     
-  x$setinverse(d)
+  x@setinverse(d)
                                       
-                                      d <- matrix(f(1,2,3,4),2,2)
+                              
                                       
                                       d1 <- makeCacheMatrix(d)
                                       
