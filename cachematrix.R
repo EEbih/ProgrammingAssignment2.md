@@ -3,6 +3,9 @@
 
 makeCacheMatrix <- function (x) = matrix()) {
     i <- NULL
+    
+        x <<- y
+          i <<  - NULL
   
   list(x) set    = set,
        
