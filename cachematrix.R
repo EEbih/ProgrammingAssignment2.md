@@ -1,7 +1,7 @@
 
 @makeCacheMatrix
 
-makeCacheMatrix <- functionx = matrix()) {
+makeCacheMatrix <- function (x) = matrix()) {
     i <- NULL
   
   list(x) set    = set,
