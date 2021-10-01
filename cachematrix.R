@@ -1,13 +1,9 @@
 
 @makeCacheMatrix
-makeCacheMatrix  <-    functionx = matrix(x)) {
+
+makeCacheMatrix <- functionx = matrix()) {
+    i <- NULL
   
- set <-      functiony (y) {
-                             
-                              <- rfunction}]
-  
-  setinverse  <-    functioninverse i  <<- inverse
- 
   list(x) set    = set,
        
        get =  get,
@@ -36,7 +32,10 @@ tfunction(dfg) { setinverse
                                       
                               
                                       
-                                      d1 <- makeCacheMatrix(d)
+     }
+  data <- x$get()
                                       
-                                      cacheSolve(d1)
-
+  i <- solve(data, ...)
+                                      
+  x$setinverse(i)
+  i
